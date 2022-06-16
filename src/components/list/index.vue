@@ -15,8 +15,8 @@
                 <Rate v-model="item.averageUserRating"
                 style="display:flex;line-height:0;"
                 allow-half
-                size="10"
                 readonly
+                size="10"
                 color="#ffd21e"
                 void-icon="star"
                 void-color="#eee"/>
@@ -113,7 +113,7 @@ const scrollEvent=()=>{
      padding: 30px 0 30px 20px;
       .list-num{
           font-size: 12px;
-          width: 10px;
+          width: 20px;
           color: #e5e5e5;
       }
      .List-img{

@@ -38,6 +38,8 @@
         margin-left: 20px;
         display: inline-block;
         width:200px;
+        text-align: center;
+
         .rowList-img{
           border-radius: 30%;
           width:150px;
@@ -48,7 +50,7 @@
             font-size: 16px;
             text-overflow:ellipsis;
             overflow:hidden;
-
+            padding: 0 35px;
         }
         .rowList-label{
             text-align: center;

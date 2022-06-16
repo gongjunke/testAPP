@@ -30,20 +30,4 @@ module.exports = defineConfig({
       patterns: []
     }
   },
-  pwa: {
-
-    // workboxOptions: {
-    //   swSrc: "./src/registerServiceWorker.js", // 自定义sw文件的位置
-    //   importWorkboxFrom: "disabled" // 是否要引入线上的service-worker文件，我们只需要自己定义的文件，不需要谷歌提供的sw文件
-    // }
-    //  workboxOptions: {
-    // // https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin
-    // skipWaiting: true,
-    // clientsClaim: true,
-    // importWorkboxFrom: 'disabled',
-    // importsDirectory: 'js',
-    // navigateFallback: '/',
-    // navigateFallbackBlacklist: [/\/api\//]
-  // } 
-  } 
 })
